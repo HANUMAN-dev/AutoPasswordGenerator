@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Auto password generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        
+        <div class="container" id="wrapper">
+        <form action="#" id="myForm">
+<div class="con2">
+            <label for="inputField">Generated Password</label>
+            <input type="text" id="inputField"><br>
+
+
+            <label for="rangeField">Choose Lenght</label>
+            <input  type="range" id="rangeField" max="10" min="1">
+            <input type="number"id="numberField" value="10">
+            <br>
+        </div>
+            <input class="checkmark"type="checkbox" id="checkUppercase">
+            <label for="checkUppercase" class="con1">Use Uppercase</label><br>
+
+            <input class="checkmark"type="checkbox" id='checkNumber'>
+            <label for="checkNumber"class="con1">Use Number</label><br>
+
+            <input type="checkbox"class="checkmark" id="checkSymbol">
+            <label for="checkSymbol"class="con1">Use Symbol </label><br>
+
+            <input id="btnG" type="submit" value="Generate" class="btng">
+
+        </form>
+    </div>
+
+        <script src="main.js" ></script>
+    </body>
+</html>
